@@ -28,4 +28,14 @@ $enyoga = ("Vishkambha","Prithi","Ayushman","Saubhagya","Shobhana",
 		 "Dhruva","Vyaghata","Harshana","Vajra","Siddhi","Vyatipata",
 		 "Variyan","Parigha","Shiva","Siddha","Sadhya","Shubha","Shukla",
 		 "Bramha","Indra","Vaidhruthi");
+$ennakshatra = ("Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardhra",
+		      "Punarvasu","Pushya","Ashlesa","Magha","Poorva Phalguni","Uttara Phalguni",
+		      "Hasta","Chitra","Swathi","Vishaka","Anuradha","Jyeshta","Mula",
+		      "Poorva Ashada","Uttara Ashada","Sravana","Dhanishta","Shatabisha",
+		      "Poorva Bhadra","Uttara Bhadra","Revathi");
+		 
+		 
+		 
+		 
+		 
 ?>
