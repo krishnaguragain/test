@@ -9,26 +9,26 @@ function rad2deg($arg) {
 $enmonth=array(1 => "January","February","March","April","May","June",
 		  "July","August","September","October","November","December");
 		  
-$enrashi=array("Mesha","Vrishabha","Mithuna","Karka","Simha","Kanya","Tula",
+$enrashi=array(1 => "Mesha","Vrishabha","Mithuna","Karka","Simha","Kanya","Tula",
 		   "Vrischika","Dhanu","Makara","Kumbha","Meena");	  
-$enday =array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+$enday =array(1 => "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
 
-$entithi = ("Prathame","Dwithiya","Thrithiya","Chathurthi","Panchami",
+$entithi = (1 => "Prathame","Dwithiya","Thrithiya","Chathurthi","Panchami",
 		  "Shrashti","Saptami","Ashtami","Navami","Dashami","Ekadashi",
 		  "Dwadashi","Thrayodashi","Chaturdashi","Poornima","Prathame",
 		  "Dwithiya","Thrithiya","Chathurthi","Panchami","Shrashti",
 		  "Saptami","Ashtami","Navami","Dashami","Ekadashi","Dwadashi",
 		  "Thrayodashi","Chaturdashi","Amavasya");
 
-$enkaran=("Bava","Balava","Kaulava","Taitula","Garija","Vanija",
+$enkaran=(1 => "Bava","Balava","Kaulava","Taitula","Garija","Vanija",
 		  "Visti","Sakuni","Chatuspada","Naga","Kimstughna");
 
-$enyoga = ("Vishkambha","Prithi","Ayushman","Saubhagya","Shobhana",
+$enyoga = (1 => "Vishkambha","Prithi","Ayushman","Saubhagya","Shobhana",
 		 "Atiganda","Sukarman","Dhrithi","Shoola","Ganda","Vridhi",
 		 "Dhruva","Vyaghata","Harshana","Vajra","Siddhi","Vyatipata",
 		 "Variyan","Parigha","Shiva","Siddha","Sadhya","Shubha","Shukla",
 		 "Bramha","Indra","Vaidhruthi");
-$ennakshatra = ("Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardhra",
+$ennakshatra = (1 => "Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardhra",
 		      "Punarvasu","Pushya","Ashlesa","Magha","Poorva Phalguni","Uttara Phalguni",
 		      "Hasta","Chitra","Swathi","Vishaka","Anuradha","Jyeshta","Mula",
 		      "Poorva Ashada","Uttara Ashada","Sravana","Dhanishta","Shatabisha",
