@@ -33,7 +33,20 @@ $ennakshatra = ("Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardhra",
 		      "Hasta","Chitra","Swathi","Vishaka","Anuradha","Jyeshta","Mula",
 		      "Poorva Ashada","Uttara Ashada","Sravana","Dhanishta","Shatabisha",
 		      "Poorva Bhadra","Uttara Bhadra","Revathi");
-		 
+//Function to Calculate Aynamsa
+function calc_ayanamsa($d)
+{
+	// $d in unix format
+
+	$t = ($d+36523.5)/36525;
+	$o = 259.183275-1934.142008333206*$t+0.0020777778*$t*$t;
+	$l = 279.696678+36000.76892*$t+0.0003025*$t*$t;
+	$ayan = 17.23*deg2rad(sin($o))+1.27*deg2rad(sin($l*2))-(5025.64+1.11*$t)*$t;
+	//Based on Lahiri
+	$ayan = ($ayan-80861.27)/3600.0;
+
+	return $ayan;
+}		 
 		 
 		 
 		 
